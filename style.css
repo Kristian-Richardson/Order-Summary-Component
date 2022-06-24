@@ -17,7 +17,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  max-width: 400px;
+  max-width: 350px;
   display: flex;
   flex-direction: column;
 }
@@ -37,8 +37,68 @@ body {
   text-align: center;
   margin-bottom: 20px;
   font-weight: 900;
+  color: hsl(223, 47%, 23%);
 }
 
 .description {
   text-align: center;
+  color: rgb(136, 136, 136);
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.plan-title {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+.plan-price {
+  color: rgb(136, 136, 136);
+  margin-top: 2px;
+}
+
+.music-icon {
+  width: 35px;
+  object-fit: contain;
+}
+
+.change-plan-btn {
+  font-size: 14px;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.primary-btn {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: hsl(245, 75%, 52%) 0px 3px 8px;
+}
+
+.secondary-btn {
+  margin-top: 23px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+  font-weight: 700;
+  font-size: 14px;
 }
