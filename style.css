@@ -18,6 +18,7 @@ body {
   left: 50%;
   top: 50%;
   max-width: 350px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -101,4 +102,10 @@ body {
   color: rgb(136, 136, 136);
   font-weight: 700;
   font-size: 14px;
+}
+
+@media (max-width: 650px) {
+  .inner-container {
+    padding: 25px;
+  }
 }
